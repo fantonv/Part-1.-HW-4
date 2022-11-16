@@ -1,7 +1,10 @@
 public class Main {
-     public static void main(String[] args){
-         int[] arr = generateRandomArray();
-     }
+    public static void main(String[] args) {
+        int[] intArr = generateRandomArray();
+        for (int i = 0; i < intArr.length; i++) {
+        }
+
+    }
         //task 1
         public static int[] generateRandomArray () {
             java.util.Random random = new java.util.Random();
